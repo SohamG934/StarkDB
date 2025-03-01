@@ -5,8 +5,10 @@ Vectura is a lightweight vector database implemented in Rust, designed to handle
 
 ---
 
-<video src="demo/demo.mp4" controls width="600"></video>
-[Watch the demo](demo/demo.mp4)
+
+https://github.com/user-attachments/assets/db950384-7eb4-4301-96b2-62b2d2d0211a
+
+
 
 
 ## 📁 Project Structure
