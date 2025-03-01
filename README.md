@@ -5,10 +5,13 @@ AxonDB is a lightweight vector database implemented in Rust, designed to handle 
 
 ---
 
+<video src="demo/demo.mp4" controls width="600"></video>
+
 ## 📁 Project Structure
 
 ```
 .
+├── demo/                     # Demo video of working
 ├── models/                   # Directory containing model files
 ├── src/                      # Source code directory
 │   ├── main.rs               # Entry point of the application
