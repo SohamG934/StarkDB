@@ -1,7 +1,7 @@
 
-# 🧠 Vectura: A Simple Vector Database in Rust
+# 🧠 StarkDB: A Simple Vector Database in Rust
 
-Vectura is a lightweight vector database implemented in Rust, designed to handle high-dimensional data for efficient similarity search. This project showcases the integration of Rust's performance capabilities with retrieval, making it a valuable resource for the ever increasing demand for higher retrieval speeds.
+StarkDB is a lightweight vector database implemented in Rust, designed to handle high-dimensional data for efficient similarity search. This project showcases the integration of Rust's performance capabilities with retrieval, making it a valuable resource for the ever increasing demand for higher retrieval speeds.
 
 ---
 
@@ -40,8 +40,8 @@ https://github.com/user-attachments/assets/db950384-7eb4-4301-96b2-62b2d2d0211a
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/SohamG934/vectura.git
-   cd vectura
+   git clone https://github.com/SohamG934/starkdb.git
+   cd starkdb
    ```
 
 3. **Build the Project**:
@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/db950384-7eb4-4301-96b2-62b2d2d0211a
 
 ## 📊 How It Works
 
-Vectura works by converting input text into vector embeddings using the `rust-bert` library, which are then stored on disk in binary format. For similarity search, it utilizes the **Hierarchical Navigable Small World (HNSW)** algorithm to efficiently retrieve the most relevant data points.
+StarkDB works by converting input text into vector embeddings using the `rust-bert` library, which are then stored on disk in binary format. For similarity search, it utilizes the **Hierarchical Navigable Small World (HNSW)** algorithm to efficiently retrieve the most relevant data points.
 
 ---
 
@@ -120,7 +120,7 @@ const OVERLAP: usize = 50;
 
 ## 📦 Dependencies
 
-The main dependencies of Vectura are:
+The main dependencies of StarkDB are:
 
 ```toml
 [dependencies]
@@ -178,7 +178,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## ☕ Support Me
 
-If you find Vectura helpful, consider supporting my work!
+If you find StarkDB helpful, consider supporting my work!
 
 <a href="https://buymeacoffee.com/soham_ghadge" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
