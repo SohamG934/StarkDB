@@ -1,11 +1,13 @@
 
-# 🧠 AxonDB: A Simple Vector Database in Rust
+# 🧠 Vectura: A Simple Vector Database in Rust
 
-AxonDB is a lightweight vector database implemented in Rust, designed to handle high-dimensional data for efficient similarity search. This project showcases the integration of Rust's performance capabilities with retrieval, making it a valuable resource for the ever increasing demand for higher retrieval speeds.
+Vectura is a lightweight vector database implemented in Rust, designed to handle high-dimensional data for efficient similarity search. This project showcases the integration of Rust's performance capabilities with retrieval, making it a valuable resource for the ever increasing demand for higher retrieval speeds.
 
 ---
 
 <video src="demo/demo.mp4" controls width="600"></video>
+[Watch the demo](demo/demo.mp4)
+
 
 ## 📁 Project Structure
 
@@ -36,8 +38,8 @@ AxonDB is a lightweight vector database implemented in Rust, designed to handle 
 
 2. **Clone the Repository**:
    ```bash
-   git clone https://github.com/SohamG934/axondb.git
-   cd axondb
+   git clone https://github.com/SohamG934/vectura.git
+   cd vectura
    ```
 
 3. **Build the Project**:
@@ -54,7 +56,7 @@ AxonDB is a lightweight vector database implemented in Rust, designed to handle 
 
 ## 📊 How It Works
 
-AxonDB works by converting input text into vector embeddings using the `rust-bert` library, which are then stored on disk in binary format. For similarity search, it utilizes the **Hierarchical Navigable Small World (HNSW)** algorithm to efficiently retrieve the most relevant data points.
+Vectura works by converting input text into vector embeddings using the `rust-bert` library, which are then stored on disk in binary format. For similarity search, it utilizes the **Hierarchical Navigable Small World (HNSW)** algorithm to efficiently retrieve the most relevant data points.
 
 ---
 
@@ -116,7 +118,7 @@ const OVERLAP: usize = 50;
 
 ## 📦 Dependencies
 
-The main dependencies of AxonDB are:
+The main dependencies of Vectura are:
 
 ```toml
 [dependencies]
@@ -174,7 +176,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## ☕ Support Me
 
-If you find AxonDB helpful, consider supporting my work!
+If you find Vectura helpful, consider supporting my work!
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20My%20Work-orange?style=for-the-badge&logo=buymeacoffee)]([https://www.buymeacoffee.com/sohamg934](https://buymeacoffee.com/soham_ghadge))
 
