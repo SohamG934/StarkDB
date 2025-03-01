@@ -180,6 +180,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you find Vectura helpful, consider supporting my work!
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20My%20Work-orange?style=for-the-badge&logo=buymeacoffee)]([https://www.buymeacoffee.com/sohamg934](https://buymeacoffee.com/soham_ghadge))
+<a href="https://buymeacoffee.com/soham_ghadge" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ---
